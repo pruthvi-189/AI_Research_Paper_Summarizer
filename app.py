@@ -45,3 +45,6 @@ if uploaded_file:
     if st.button("Explain in Simple Words"):
         explanation = explain_text(user_text)
         st.write(explanation)
+
+
+# To run the app, use the command: streamlit run app.py
